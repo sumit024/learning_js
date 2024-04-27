@@ -36,3 +36,21 @@ const myFunction = function(){
 myFunction()
 
 console.log(typeof anotherId);
+
+
+/////////// Stack and Heap memory in js//////
+
+let userName="Sumit";
+let userName2= userName;
+userName2= "Kush";
+console.log(userName);
+console.log(userName2);
+
+let user1 ={
+    "name":"Sumit"
+}
+let user2=user1
+user2.name="Kush";
+
+console.log(user1.name);
+console.log(user2.name);
