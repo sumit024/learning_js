@@ -24,3 +24,7 @@ console.log('array after slice',arr);
 const splicedArr= arr.splice(1,3);
 console.log('after splicing array',splicedArr);
 console.log('array after splice',arr);
+
+
+// slice excludes the end and splice includes the end
+// splice modifies the original array , slice does not.
